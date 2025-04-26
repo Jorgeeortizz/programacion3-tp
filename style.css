@@ -2,7 +2,8 @@ body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     color: #f4f4f4;
-    background-color: #595959;
+    background-color: #292929;
+   
 }
 
 .header{
@@ -52,17 +53,20 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    background-color: #292929;
+    
     
 }
 
 .botonera button {
     padding: 10px;
     cursor: pointer;
-    background-color: #595959;
+    background-color: #4e4e4e;
 }
 
-.botonera button span {
-    color : "#f4f4f4";
+.botonera button span  {
+   
+    font-size: 20px;
 
 }
 
@@ -70,4 +74,9 @@ body {
     width: 50px;
     height: 50px;
     margin: 5px;
+}
+
+.footer{
+    width: 100% ! important ;
+    height: 100px;
 }
