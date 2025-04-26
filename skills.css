@@ -1,0 +1,48 @@
+/* Conocimientos */
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: #f4f4f4;
+    background-color: #292929;
+   
+}
+
+.container-skills {
+   
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10% 15%;
+    border-radius: 20px;
+}
+
+.container-skills .skills-img {
+    
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px;
+}
+
+.container-skills .skills-img img {
+    height: 100px;
+    width: auto;
+    margin: 0 40px 0;
+}
+
+.container-skills .skills-tittle {
+    height: 20%;
+    width: 100%;
+}
+
+.container-skills .skills-tittle h2{
+    font-size: 2rem;
+    margin: 0 0 5px 0;
+    color: #D4A15B;
+}
